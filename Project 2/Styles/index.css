@@ -1,0 +1,17 @@
+
+#calc {
+    width: 25%;
+}
+
+/*input {
+    display: flex;
+    width: 20%;
+    flex-flow: row nowrap;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}*/
+
+#btns {
+    display: flex;
+    justify-content: space-between;
+}
