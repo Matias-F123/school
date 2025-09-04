@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         let res = n1 + n2
 
-        result.textContent = res
+        result.textContent = "Resultado: " + res
     })
 
     // --- Funcion Restar ---
@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         let res = n1 - n2
 
-        result.textContent = res
+        result.textContent = "Resultado: " + res
     })
 
     // --- Funcion Multiplicar ---
@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         let res = n1 * n2
 
-        result.textContent = res
+        result.textContent = "Resultado: " + res
     })
 
     // --- Funcion Dividir ---
@@ -57,6 +57,6 @@ document.addEventListener("DOMContentLoaded", () => {
             res = n1 / n2
         }
 
-        result.textContent = res
+        result.textContent = "Resultado: " + res
     })
 })

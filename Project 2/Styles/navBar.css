@@ -1,0 +1,41 @@
+
+body {
+    background-color: #202020;
+    margin: 0;
+}
+
+#navBar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: #aa3939;
+    margin-bottom: 10px;
+}
+
+#navBar > a, #navBar > button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #d46a6a;
+    margin: 10px;
+    padding: 8px;
+    background-color: #550000;
+    text-decoration: none;
+    border-style: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#navBar > a:hover , #navBar > button:hover {
+    color: #801515;
+    background-color: #d46a6a;
+}
+
+#navBar :first-child {
+    margin-left: 15px;
+}
+
+#navBar :last-child {
+    margin-right: 15px;
+}

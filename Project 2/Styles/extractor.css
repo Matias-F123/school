@@ -1,0 +1,21 @@
+
+textarea {
+    margin: 5px;
+    color: #aa3939;
+    background-color: #ffaaaa;
+}
+
+button {
+    font-size: medium;
+    color: #aa3939;
+    background-color: #ffaaaa;
+    border: solid #550000;
+    margin: 5px;
+}
+
+select {
+    color: #aa3939;
+    background-color: #ffaaaa;
+    border-color: #550000;
+    border-style: solid;
+}

@@ -1,0 +1,50 @@
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  appearance: textfield;
+  -moz-appearance: textfield;
+}
+
+input {
+    background-color: #ffaaaa;
+    margin: 5px;
+    font-size: large;
+    max-width: 190px;
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    color: #aa3939;
+}
+
+p {
+    color: #909090;
+    margin-left: 5px;
+}
+
+h2 {
+    color: #aa3939;
+    margin-left: 20px;
+}
+
+select {
+    color: #aa3939;
+    background-color: #ffaaaa;
+    border-color: #550000;
+    border-style: solid;
+}
+
+button {
+    font-size: medium;
+    color: #aa3939;
+    background-color: #ffaaaa;
+    border: solid #550000;
+    margin-left: 5px;
+}
